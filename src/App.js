@@ -113,6 +113,7 @@ const [decryptoData, setDecryptoData] = useState('')
 
       <div className='card'>
         <textarea 
+          maxLength="120"
           value={text}
           onChange={({target})=>setText(target.value)}
           placeholder=
